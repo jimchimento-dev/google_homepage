@@ -1,1 +1,1 @@
-Hello World! This is my first attempt at replicating a Google homepage.
+Hello World! This is my first attempt at replicating the Google homepage.
