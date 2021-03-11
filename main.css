@@ -1,28 +1,43 @@
 html {
     box-sizing:border-box;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
-
 /*  Navigation Bar */
 ul {
-    margin: 0;
-    padding: 0;
     list-style-type: none;
-}
-li {
-    display: inline-flex;
-    justify-content: center;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 0px;
+    margin: 20px;
 }
 .right {
-    flex: 1, 2, auto;
-    padding: 0px 20px 0px 20x;
+    display: inline-flex;
+    padding-left: 20px;
 }
-.left {
-    padding: 0px 20px 0px 20px;
+.Store {
+    margin: 20px;
+    padding-right: 780px;
 }
-
+.Gmail {
+    margin: 10px;
+}
+.Images {
+    margin: 10px;
+}
+.Google-Apps {
+    margin: 10px;
+}
+.Google-Account {
+    margin: 10px;
+}
 a:-webkit-any-link {
     text-decoration: none;
     color: black;
@@ -38,18 +53,31 @@ a:hover {
     justify-content: center;
     width: 272px;
     height: 92px;
+    margin: auto;
+    margin-top: 80px;
 }
 .img { 
-   
+   width: 100%;
 }
 .search {
     display: flex;
     justify-content: center;
+    height: 32px;
+    margin-top: 20px;
 }
+
+input {
+    width: 40%;
+    outline: none;
+    border-radius: 15px;
+    padding: auto;
+    border: 2px solid lightgray;
+}
+
 .btn {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin-top: 25px;
 }
 .btn-1 {
     padding: 5px;
@@ -60,10 +88,50 @@ a:hover {
     margin: 11px 4px 11px 4px;
 }
 
+.btn .img .search {
+    margin-top: 150px;
+}
+
 /* Footer */
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    margin-top: 250px;
+    padding: 10px 20px;
+    width: 100%;
+    padding-left: 3000px;
+	margin-left: -3000px;
+}
+.Advertising {
+    margin: 10px;
+}
+.Business {
+    margin: 10px;
+}
+.HSW {
+    margin: 10px;
+}
+.Carbon {
+    display: flex;
+    margin: 10px;
 }
 
+.Privacy {
+    margin: 10px;
+}
+.Terms {
+    margin: 10px;
+}
+.Settings {
+    margin: 10px;
+}
+.BL {
+    display: flex;
+}
+.BR {
+    display: flex;
+}
